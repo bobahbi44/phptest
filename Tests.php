@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/Tree.php';
 
 $root = new Node("машины");
 $tree = new Tree($root);
